@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header :: head"></head>
+<body>
+<header th:replace="fragments/header :: header"></header>
+
+<div>
+    <img th:src="@{/images/quest_fon.png}" class="fon" alt="..." >
+</div>
+
+
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-9 col-md-9 col-lg-7 col-xl-5">
+            <div class="authorization-form">
+                <form th:action="@{/profile}" method="post" th:object="${user}">
+                    <fieldset>
+                        <legend class="name-page">Редактирование профиля</legend>
+
+                        <!-- Success message -->
+                        <div th:if="${successMessage}" class="alert alert-success" th:text="${successMessage}"></div>
+
+                        <!-- Name input -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="name">Имя</label>
+                            <div class="col-md-12">
+                                <input id="name" name="name" type="text" placeholder="введите имя"
+                                       class="form-control input-md" th:field="*{name}">
+                            </div>
+                        </div>
+
+                        <!-- Surname input -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="surname">Фамилия</label>
+                            <div class="col-md-12">
+                                <input id="surname" name="surname" type="text" placeholder="введите фамилию"
+                                       class="form-control input-md" th:field="*{surname}">
+                            </div>
+                        </div>
+
+                        <!-- Email input -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="email">Эл. почта</label>
+                            <div class="col-md-12">
+                                <input id="email" name="email" type="text" placeholder="введите адресс электронной почты"
+                                       class="form-control input-md" th:field="*{email}">
+                            </div>
+                        </div>
+
+                        <!-- Password input -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="password">Пароль</label>
+                            <div class="col-md-12">
+                                <input id="password" name="password" type="password" placeholder="введите новый пароль (оставьте пустым, если не хотите менять)"
+                                       class="form-control input-md">
+                            </div>
+                        </div>
+
+                        <!-- Button -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="submit"></label>
+                            <div class="col-md-12">
+                                <button id="submit" name="submit" class="btn btn-success">Сохранить</button>
+                                <a th:href="@{/profile}" class="btn btn-danger">Отмена</a>
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer th:replace="fragments/footer :: footer"></footer>
+</body>
+</html>

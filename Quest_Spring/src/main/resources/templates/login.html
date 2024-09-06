@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header :: head"></head>
+<body>
+<header th:replace="fragments/header :: header"></header>
+
+<div>
+    <img th:src="@{/images/quest_fon.png}" class="fon" alt="...">
+</div>
+
+<!-- Form authorization -->
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-9 col-md-9 col-lg-7 col-xl-5">
+            <div class="authorization-form">
+                <form class="form-horizontal" th:action="@{/login}" method="post">
+                    <fieldset>
+                        <legend class="name-page">Вход в учетную запись</legend>
+
+                        <!-- Error message -->
+                        <div th:if="${errorMessage != null}" class="alert alert-danger" th:text="${errorMessage}"></div>
+
+                        <div th:if="${param.error}" class="alert alert-danger">
+                            Invalid username and password.
+                        </div>
+                        <div th:if="${param.logout}" class="alert alert-danger">
+                            You have been logged out.
+                        </div>
+
+                        <!-- Login input -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="login">Учетная запись</label>
+                            <div class="col-md-12">
+                                <input id="login" name="username" type="text" placeholder="введите логин"
+                                       class="form-control input-md">
+                            </div>
+                        </div>
+
+                        <!-- Password input -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="password">Пароль</label>
+                            <div class="col-md-12">
+                                <input id="password" name="password" type="password" placeholder="введите пароль"
+                                       class="form-control input-md" required="">
+                            </div>
+                        </div>
+
+                        <!-- Button -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="submit"></label>
+                            <div class="col-md-12">
+                                <button id="submit" name="loginButton"
+                                        class="btn btn-success" value="Log in">Войти
+                                </button>
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer th:replace="fragments/footer :: footer"></footer>
+
+</body>
+</html>

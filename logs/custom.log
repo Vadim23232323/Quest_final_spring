@@ -1,0 +1,26 @@
+2024-08-28 09:09:26,474 INFO com.example.quest_spring.SpringSecurityApplication: ------------------------------------------------------------------------------
+2024-08-28 09:09:27,308 INFO com.example.quest_spring.SpringSecurityApplication: Starting SpringSecurityApplication using Java 21.0.2 with PID 8072 (D:\Spring_Security-main\Quest_Spring\target\classes started by IVC in D:\Spring_Security-main)
+2024-08-28 09:09:27,313 DEBUG com.example.quest_spring.SpringSecurityApplication: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 09:09:27,314 INFO com.example.quest_spring.SpringSecurityApplication: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 09:09:34,643 INFO com.example.quest_spring.SpringSecurityApplication: Started SpringSecurityApplication in 7.977 seconds (process running for 10.301)
+2024-08-28 09:15:19,633 INFO com.example.quest_spring.controller.MainController: The home page is open: main
+2024-08-28 09:15:22,508 INFO com.example.quest_spring.controller.LoginController: User login page is open
+2024-08-28 09:15:24,156 INFO com.example.quest_spring.security.UserDetailsServiceImpl: User: Vadim232323 successfully logged in
+2024-08-28 09:15:24,292 INFO com.example.quest_spring.controller.MainController: The home page is open: main
+2024-08-28 09:15:26,558 INFO com.example.quest_spring.controller.MainController: The home page is open: main
+2024-08-28 09:15:29,210 INFO com.example.quest_spring.controller.LoginController: User login page is open
+2024-08-28 09:15:30,383 INFO com.example.quest_spring.controller.MainController: The home page is open: main
+2024-08-28 09:15:31,869 INFO com.example.quest_spring.controller.LoginController: User login page is open
+2024-08-28 09:15:32,749 INFO com.example.quest_spring.security.UserDetailsServiceImpl: User: Vadim232323 successfully logged in
+2024-08-28 09:15:32,865 INFO com.example.quest_spring.controller.MainController: The home page is open: main
+2024-08-28 12:20:25,867 INFO com.example.quest_spring.SpringSecurityApplication: ------------------------------------------------------------------------------
+2024-08-28 12:20:26,705 INFO com.example.quest_spring.SpringSecurityApplication: Starting SpringSecurityApplication using Java 21.0.2 with PID 46956 (D:\Quest_Spring\Quest_Spring\target\classes started by IVC in D:\Quest_Spring)
+2024-08-28 12:20:26,711 DEBUG com.example.quest_spring.SpringSecurityApplication: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 12:20:26,713 INFO com.example.quest_spring.SpringSecurityApplication: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 12:20:34,811 INFO com.example.quest_spring.SpringSecurityApplication: Started SpringSecurityApplication in 8.774 seconds (process running for 11.015)
+2024-08-28 12:20:36,877 INFO com.example.quest_spring.controller.LoginController: User login page is open
+2024-08-28 12:20:40,923 INFO com.example.quest_spring.security.UserDetailsServiceImpl: User: Vadim232323 successfully logged in
+2024-08-28 12:20:46,020 INFO com.example.quest_spring.controller.LoginController: User login page is open
+2024-08-28 12:21:05,360 INFO com.example.quest_spring.security.UserDetailsServiceImpl: User: Vadim232323 successfully logged in
+2024-08-28 12:21:05,480 INFO com.example.quest_spring.controller.MainController: The home page is open: main
+2024-08-28 12:21:51,506 INFO com.example.quest_spring.controller.LoginController: User login page is open

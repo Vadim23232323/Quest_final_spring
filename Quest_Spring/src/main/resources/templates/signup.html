@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header :: head"></head>
+<body>
+<header th:replace="fragments/header :: header"></header>
+
+<div>
+    <img th:src="@{/images/quest_fon.png}" class="fon" alt="...">
+</div>
+
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-9 col-md-9 col-lg-7 col-xl-5">
+            <div class="authorization-form">
+                <form class="form-horizontal" th:action="@{/signup}" method="post" th:object="${user}">
+
+                    <fieldset>
+                        <legend class="name-page">Регистрация</legend>
+
+                        <!-- Error message -->
+                        <div th:if="${errorMessage}" class="alert alert-danger" th:text="${errorMessage}"></div>
+
+                        <!-- Login input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="login">Логин</label>
+                            <div class="col-md-12">
+                                <input id="login" name="login" type="text" placeholder="введите логин"
+                                       class="form-control input-md" th:field="*{login}">
+                                <div th:if="${#fields.hasErrors('login')}" th:errors="*{login}" class="text-danger"></div>
+                            </div>
+                        </div>
+
+                        <!-- Name input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="name">Имя</label>
+                            <div class="col-md-12">
+                                <input id="name" name="name" type="text" placeholder="введите имя"
+                                       class="form-control input-md" th:field="*{name}">
+                                <div th:if="${#fields.hasErrors('name')}" th:errors="*{name}" class="text-danger"></div>
+                            </div>
+                        </div>
+
+                        <!-- Surname input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="surname">Фамилия</label>
+                            <div class="col-md-12">
+                                <input id="surname" name="surname" type="text" placeholder="введите фамилию"
+                                       class="form-control input-md" th:field="*{surname}">
+                                <div th:if="${#fields.hasErrors('surname')}" th:errors="*{surname}" class="text-danger"></div>
+                            </div>
+                        </div>
+
+
+                        <!-- Email input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="email">Эл. почта</label>
+                            <div class="col-md-12">
+                                <input id="email" name="email" type="text"
+                                       placeholder="введите адресс электронной почты"
+                                       class="form-control input-md" th:value="${user.email}">
+                                <div th:if="${#fields.hasErrors('email')}" th:errors="*{email}" class="text-danger"></div>
+                            </div>
+                        </div>
+
+                        <!-- Password input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="password">Пароль</label>
+                            <div class="col-md-12">
+                                <input id="password" name="password" type="password" placeholder="введите пароль"
+                                       class="form-control input-md" th:field="*{password}">
+                                <div th:if="${#fields.hasErrors('password')}" th:errors="*{password}" class="text-danger"></div>
+                            </div>
+                        </div>
+
+                        <!-- Button (Double) -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="submit"></label>
+                            <div class="col-md-12">
+                                <button id="submit" name="submit" class="btn btn-success">Зарегистрироваться</button>
+                                <a th:href="@{/signup}" class="btn btn-danger">Отмена</a>
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer th:replace="fragments/footer :: footer"></footer>
+</body>
+</html>

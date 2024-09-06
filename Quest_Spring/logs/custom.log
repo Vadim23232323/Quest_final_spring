@@ -1,0 +1,94 @@
+2024-08-28 09:58:07,317 INFO com.example.quest_spring.controller.LoginControllerTest: Starting LoginControllerTest using Java 21.0.2 with PID 34792 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 09:58:07,322 DEBUG com.example.quest_spring.controller.LoginControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 09:58:07,324 INFO com.example.quest_spring.controller.LoginControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 09:58:16,909 INFO com.example.quest_spring.controller.LoginControllerTest: Started LoginControllerTest in 10.351 seconds (process running for 13.368)
+2024-08-28 09:58:18,904 INFO com.example.quest_spring.controller.LoginController: User login page is open
+2024-08-28 10:42:39,156 INFO com.example.quest_spring.controller.MainControllerTest: Starting MainControllerTest using Java 21.0.2 with PID 31780 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 10:42:39,165 DEBUG com.example.quest_spring.controller.MainControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 10:42:39,170 INFO com.example.quest_spring.controller.MainControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 10:42:51,044 INFO com.example.quest_spring.controller.MainControllerTest: Started MainControllerTest in 12.524 seconds (process running for 15.404)
+2024-08-28 10:42:51,242 INFO com.example.quest_spring.controller.MainController: The home page is open: main
+2024-08-28 10:50:54,114 INFO com.example.quest_spring.controller.QuestionControllerTest: Starting QuestionControllerTest using Java 21.0.2 with PID 12192 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 10:50:54,169 DEBUG com.example.quest_spring.controller.QuestionControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 10:50:54,174 INFO com.example.quest_spring.controller.QuestionControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 10:51:07,748 INFO com.example.quest_spring.controller.QuestionControllerTest: Started QuestionControllerTest in 14.2 seconds (process running for 16.816)
+2024-08-28 10:52:25,536 INFO com.example.quest_spring.controller.QuestionControllerTest: Starting QuestionControllerTest using Java 21.0.2 with PID 6064 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 10:52:25,542 DEBUG com.example.quest_spring.controller.QuestionControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 10:52:25,544 INFO com.example.quest_spring.controller.QuestionControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 10:52:38,699 INFO com.example.quest_spring.controller.QuestionControllerTest: Started QuestionControllerTest in 13.825 seconds (process running for 16.515)
+2024-08-28 10:52:55,014 INFO com.example.quest_spring.controller.ProfileControllerTest: Starting ProfileControllerTest using Java 21.0.2 with PID 40024 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 10:52:55,021 DEBUG com.example.quest_spring.controller.ProfileControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 10:52:55,024 INFO com.example.quest_spring.controller.ProfileControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 10:53:07,290 INFO com.example.quest_spring.controller.ProfileControllerTest: Started ProfileControllerTest in 12.801 seconds (process running for 15.339)
+2024-08-28 10:54:07,486 INFO com.example.quest_spring.controller.ProfileControllerTest: Starting ProfileControllerTest using Java 21.0.2 with PID 3436 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 10:54:07,496 DEBUG com.example.quest_spring.controller.ProfileControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 10:54:07,498 INFO com.example.quest_spring.controller.ProfileControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 10:54:29,796 INFO com.example.quest_spring.controller.ProfileControllerTest: Started ProfileControllerTest in 23.06 seconds (process running for 28.337)
+2024-08-28 10:54:35,066 INFO com.example.quest_spring.controller.MainControllerTest: Starting MainControllerTest using Java 21.0.2 with PID 46968 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 10:54:35,073 DEBUG com.example.quest_spring.controller.MainControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 10:54:35,074 INFO com.example.quest_spring.controller.MainControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 10:54:52,050 INFO com.example.quest_spring.controller.MainControllerTest: Started MainControllerTest in 17.491 seconds (process running for 20.07)
+2024-08-28 10:54:52,308 INFO com.example.quest_spring.controller.MainController: The home page is open: main
+2024-08-28 11:01:07,913 INFO com.example.quest_spring.controller.ProfileControllerTest: Starting ProfileControllerTest using Java 21.0.2 with PID 12808 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 11:01:07,923 DEBUG com.example.quest_spring.controller.ProfileControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 11:01:07,925 INFO com.example.quest_spring.controller.ProfileControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 11:01:29,412 INFO com.example.quest_spring.controller.ProfileControllerTest: Started ProfileControllerTest in 22.763 seconds (process running for 26.926)
+2024-08-28 11:01:49,995 INFO com.example.quest_spring.controller.ProfileControllerTest: Starting ProfileControllerTest using Java 21.0.2 with PID 18156 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 11:01:50,000 DEBUG com.example.quest_spring.controller.ProfileControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 11:01:50,001 INFO com.example.quest_spring.controller.ProfileControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 11:02:02,060 INFO com.example.quest_spring.controller.ProfileControllerTest: Started ProfileControllerTest in 12.608 seconds (process running for 15.176)
+2024-08-28 11:06:08,599 INFO com.example.quest_spring.controller.ProfileControllerTest: Starting ProfileControllerTest using Java 21.0.2 with PID 40684 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 11:06:08,608 DEBUG com.example.quest_spring.controller.ProfileControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 11:06:08,611 INFO com.example.quest_spring.controller.ProfileControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 11:06:24,704 INFO com.example.quest_spring.controller.ProfileControllerTest: Started ProfileControllerTest in 16.735 seconds (process running for 19.653)
+2024-08-28 11:26:30,491 INFO com.example.quest_spring.controller.ProfileControllerTest: Starting ProfileControllerTest using Java 21.0.2 with PID 25620 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 11:26:30,497 DEBUG com.example.quest_spring.controller.ProfileControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 11:26:30,499 INFO com.example.quest_spring.controller.ProfileControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 11:26:46,930 INFO com.example.quest_spring.controller.ProfileControllerTest: Started ProfileControllerTest in 17.069 seconds (process running for 19.812)
+2024-08-28 11:29:55,584 INFO com.example.quest_spring.controller.QuestControllerTest: Starting QuestControllerTest using Java 21.0.2 with PID 23676 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 11:29:55,588 DEBUG com.example.quest_spring.controller.QuestControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 11:29:55,593 INFO com.example.quest_spring.controller.QuestControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 11:30:09,169 INFO com.example.quest_spring.controller.QuestControllerTest: Started QuestControllerTest in 14.062 seconds (process running for 17.046)
+2024-08-28 11:35:35,878 INFO com.example.quest_spring.controller.QuestControllerTest: Starting QuestControllerTest using Java 21.0.2 with PID 34536 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 11:35:35,885 DEBUG com.example.quest_spring.controller.QuestControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 11:35:35,886 INFO com.example.quest_spring.controller.QuestControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 11:35:49,318 INFO com.example.quest_spring.controller.QuestControllerTest: Started QuestControllerTest in 13.977 seconds (process running for 16.814)
+2024-08-28 11:40:36,892 INFO com.example.quest_spring.controller.ProfileControllerTest: Starting ProfileControllerTest using Java 21.0.2 with PID 9580 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 11:40:36,897 DEBUG com.example.quest_spring.controller.ProfileControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 11:40:36,899 INFO com.example.quest_spring.controller.ProfileControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 11:40:52,138 INFO com.example.quest_spring.controller.ProfileControllerTest: Started ProfileControllerTest in 15.771 seconds (process running for 18.94)
+2024-08-28 11:43:32,103 INFO com.example.quest_spring.controller.ProfileControllerTest: Starting ProfileControllerTest using Java 21.0.2 with PID 23028 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 11:43:32,120 DEBUG com.example.quest_spring.controller.ProfileControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 11:43:32,125 INFO com.example.quest_spring.controller.ProfileControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 11:43:46,603 INFO com.example.quest_spring.controller.ProfileControllerTest: Started ProfileControllerTest in 15.025 seconds (process running for 18.209)
+2024-08-28 11:50:12,810 INFO com.example.quest_spring.controller.ProfileControllerTest: Starting ProfileControllerTest using Java 21.0.2 with PID 32256 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 11:50:12,818 DEBUG com.example.quest_spring.controller.ProfileControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 11:50:12,824 INFO com.example.quest_spring.controller.ProfileControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 11:50:26,766 INFO com.example.quest_spring.controller.ProfileControllerTest: Started ProfileControllerTest in 14.617 seconds (process running for 17.369)
+2024-08-28 11:54:39,989 INFO com.example.quest_spring.controller.ProfileControllerTest: Starting ProfileControllerTest using Java 21.0.2 with PID 28852 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 11:54:39,996 DEBUG com.example.quest_spring.controller.ProfileControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 11:54:39,997 INFO com.example.quest_spring.controller.ProfileControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 11:54:59,447 INFO com.example.quest_spring.controller.ProfileControllerTest: Started ProfileControllerTest in 20.017 seconds (process running for 22.619)
+2024-08-28 11:56:07,718 INFO com.example.quest_spring.controller.QuestionControllerTest: Starting QuestionControllerTest using Java 21.0.2 with PID 10496 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 11:56:07,724 DEBUG com.example.quest_spring.controller.QuestionControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 11:56:07,726 INFO com.example.quest_spring.controller.QuestionControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 11:56:23,105 INFO com.example.quest_spring.controller.QuestionControllerTest: Started QuestionControllerTest in 15.996 seconds (process running for 19.285)
+2024-08-28 12:04:40,922 INFO com.example.quest_spring.controller.QuestionControllerTest: Starting QuestionControllerTest using Java 21.0.2 with PID 24732 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 12:04:40,929 DEBUG com.example.quest_spring.controller.QuestionControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 12:04:40,931 INFO com.example.quest_spring.controller.QuestionControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 12:04:54,910 INFO com.example.quest_spring.controller.QuestionControllerTest: Started QuestionControllerTest in 14.529 seconds (process running for 17.349)
+2024-08-28 12:05:17,892 INFO com.example.quest_spring.controller.QuestionControllerTest: Starting QuestionControllerTest using Java 21.0.2 with PID 44652 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 12:05:17,897 DEBUG com.example.quest_spring.controller.QuestionControllerTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 12:05:17,900 INFO com.example.quest_spring.controller.QuestionControllerTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 12:05:31,734 INFO com.example.quest_spring.controller.QuestionControllerTest: Started QuestionControllerTest in 14.423 seconds (process running for 17.069)
+2024-08-28 12:13:55,402 INFO com.example.quest_spring.service.UserServiceTest: Starting UserServiceTest using Java 21.0.2 with PID 33876 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 12:13:55,408 DEBUG com.example.quest_spring.service.UserServiceTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 12:13:55,409 INFO com.example.quest_spring.service.UserServiceTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 12:14:08,159 INFO com.example.quest_spring.service.UserServiceTest: Started UserServiceTest in 13.237 seconds (process running for 15.842)
+2024-08-28 12:14:08,496 INFO com.example.quest_spring.service.UserService: The user null has been successfully registered 
+2024-08-28 12:14:08,608 INFO com.example.quest_spring.service.UserService: User: null changed the password.
+2024-08-28 12:14:08,609 INFO com.example.quest_spring.service.UserService: User: null updated their details.
+2024-08-28 12:15:50,791 INFO com.example.quest_spring.service.QuestionServiceTest: Starting QuestionServiceTest using Java 21.0.2 with PID 18360 (started by IVC in D:\Spring_Security-main\Quest_Spring)
+2024-08-28 12:15:50,805 DEBUG com.example.quest_spring.service.QuestionServiceTest: Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-08-28 12:15:50,809 INFO com.example.quest_spring.service.QuestionServiceTest: No active profile set, falling back to 1 default profile: "default"
+2024-08-28 12:16:04,974 INFO com.example.quest_spring.service.QuestionServiceTest: Started QuestionServiceTest in 14.875 seconds (process running for 18.617)

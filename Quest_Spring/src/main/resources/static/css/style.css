@@ -1,0 +1,163 @@
+/* Кнопки регистрации */
+.sign-nav {
+    margin: 6px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0px 12px;
+    color: #fff; /* Цвет текста */
+    background-color: #007bff; /* Цвет фона */
+    border: 6px solid #007bff; /* Синяя обводка */
+    border-radius: 3px; /* Закругленные края */
+    text-decoration: none; /* Убираем подчеркивание у ссылки */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Плавные переходы */
+}
+
+/* При наведении мыши */
+.sign-nav:hover {
+    background-color: #0056b3; /* Темно-синий при наведении */
+    border-color: #0056b3; /* Темно-синяя обводка при наведении */
+}
+
+/* Логотип */
+
+.fa-ioxhost {
+    font-size: 40px;
+    padding-left: 26px;
+    color: orangered;
+}
+
+.logo {
+    font-size: 30px;
+    padding-left: 4px;
+    color: orangered;
+    font-family: "Arial Black";
+}
+
+
+/* Название квеста */
+
+.name-page {
+    font-family: "Arial Black";
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    display: inline-block;
+    padding: 0px 12px;
+    color: #fff; /* Цвет текста */
+    background-color: #ff4500; /* Цвет фона */
+    border: 6px solid #ff4500; /* Синяя обводка */
+    border-radius: 3px; /* Закругленные края */
+    text-decoration: none; /* Убираем подчеркивание у ссылки */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Плавные переходы */
+}
+
+.fon-quest {
+    background-color: rgba(0, 123, 255, 0.82);
+    text-transform: uppercase;
+    padding: 10px 10px;
+    border-radius: 4px;
+    color: white;
+}
+
+/* Фон */
+
+.fon {
+    position: fixed; /* Изменяем с fixed на relative */
+    z-index: -1;
+}
+
+.footer {
+    /*--bs-text-opacity: 1;*/
+    color: #ffffff; /* Черный цвет для ссылок */
+
+}
+
+
+.footer-fon {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img.fon {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Стиль главной формы */
+
+.info-form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+.info-text-z {
+    font-weight: bold;
+    font-family: "Arial Black";
+    text-transform: uppercase;
+}
+
+.info-text {
+    font-family: "Arial";
+    font-size: 22px;
+    text-align: justify;
+}
+
+/* Кнопка рестарт */
+
+.bottom-fixed {
+    margin-top: 30px;
+}
+
+.btn-new {
+    text-align: center;
+    font-family: "Arial Black";
+    border: none;
+    padding: 12px 18px;
+    transition: 0.5s;
+    font-size: 30px;
+    background-size: 300% auto;
+    color: white;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, #003CC5 0%, #0B63F6 51%, #003CC5 100%);
+    opacity: 0;
+    animation: fadeInAnimation 1s ease-in forwards;
+    text-decoration: none;
+}
+
+.restart {
+    margin-bottom: 30px;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.btn-new:hover {
+    background-position: right center;
+}
+
+
+/* Форма авторизации */
+
+.authorization-form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+
+}
+
+
+
